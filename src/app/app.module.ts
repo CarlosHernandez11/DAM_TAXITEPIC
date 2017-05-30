@@ -10,6 +10,7 @@ import { LoginPage } from '../pages/login/login';
 import { DriverPage } from '../pages/driver/driver'; //pagina de Taxis
 import { HttpModule } from '@angular/http';
 
+
 @NgModule({
   declarations: [
     MyApp,

@@ -1,14 +1,14 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Ionic Blank
+      Usuario
     </ion-title>
+    
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+  <button ion-button full (click)="crearViaje(1,21.4822729,-104.8678145)">Crear</button>
+  <button ion-button full (click)="deleteViaje(2)">Delete</button>
+  <button ion-button full (click)="showViaje(3)">Show Viaje</button>
 </ion-content>
